@@ -3,11 +3,8 @@ description: "Professional website built with Jekyll and GitHub Pages"
 baseurl: ""
 url: "https://oscarahumadag.github.io"
 
-# Theme (optional)
-theme: minima
-minima:
-  skin: classic
-
+# Usa el tema remoto en lugar del local
+remote_theme: jekyll/minima
 
 # Plugins
 plugins:
@@ -18,7 +15,7 @@ plugins:
 # Markdown settings
 markdown: kramdown
 
-# Language
+# Lenguaje del sitio
 lang: "en"
 
 # Sass settings
