@@ -1,0 +1,23 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Personaliza tu CSS aquí */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa; /* Color de fondo */
+}
+
+h1 {
+  color: #007bff; /* Color azul */
+}
+
+a {
+  text-decoration: none;
+  color: #ff4500; /* Color naranja */
+}
+
+a:hover {
+  color: #ff6347; /* Color rojo suave */
+}

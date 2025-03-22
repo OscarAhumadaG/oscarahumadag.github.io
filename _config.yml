@@ -17,3 +17,7 @@ markdown: kramdown
 
 # Language
 lang: "en"
+
+# Sass settings
+sass:
+  style: compressed
