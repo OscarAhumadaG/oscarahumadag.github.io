@@ -5,6 +5,9 @@ url: "https://oscarahumadag.github.io"
 
 # Theme (optional)
 theme: minima
+minima:
+  skin: classic
+
 
 # Plugins
 plugins:
