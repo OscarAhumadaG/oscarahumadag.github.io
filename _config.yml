@@ -1,0 +1,67 @@
+title: "Oscar Ahumada"
+author: "Oscar Ahumada"
+email: "odahumada26@gmail.com"
+description: > 
+  Welcome! This is a space to explore my work, interests, and insights in data science and machine learning.
+
+baseurl: "" 
+url: "https://oscarahumadag.github.io"
+
+lang: "en"
+
+# Social media
+github_username: oscarahumadag
+linkedin_username: oscarahumadag
+
+# Establecer el tema remoto para Beautiful Jekyll
+remote_theme: daattali/beautiful-jekyll@master
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Navegación (navbar) organizada
+navbar-links:
+  About Me: "about"
+  Experience & Education: "experience"
+  Projects: "projects"
+  Stats & Facts: "stats"
+  # Gallery: "gallery"
+
+# Personalización de la navegación
+navbar-col: "#2C3E50"
+navbar-text-col: "#ffffff"
+page-col: "#ffffff"
+link-col: "#3498DB"
+
+
+# Avatar
+avatar: "/assets/img/logo.png"
+round-avatar: true
+
+# Footer
+footer-links-active:
+  email: true
+  github: true
+  linkedin: true
+
+includes_dir: "_includes"
+
+
+social-network-links:
+  email: "odahumada26@gmail.com"
+  instagram : ahumadaruedafamily
+  github: OscarAhumadaG
+  whatsapp: 5793726432
+  linkedin: odahumada/
+
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+
+
+

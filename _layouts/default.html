@@ -1,0 +1,53 @@
+---
+layout: base
+---
+
+<style>
+  /* Avatar lateral (no el del navbar) */
+  .sidebar-avatar {
+    position: fixed;
+    top: 120px;
+    left: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    z-index: 999;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+
+  .sidebar-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  /* Contenido principal */
+  .page-content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    margin-top: 30px;
+    z-index: 1;
+  }
+
+  /* Responsive: ocultar avatar en pantallas pequeñas */
+  @media screen and (max-width: 768px) {
+    .sidebar-avatar {
+      display: none;
+    }
+  }
+</style>
+
+{% unless page.url == "/" %}
+  <!-- Avatar lateral solo visible fuera del home -->
+  <div class="sidebar-avatar" aria-hidden="false">
+    <img src="{{ site.baseurl }}/assets/img/oscar-avatar.jpg" alt="Foto de perfil de Oscar Ahumada">
+  </div>
+{% endunless %}
+
+   <!-- Contenedor principal para el contenido -->
+   <div class="page-content">
+    {{ content }}  <!-- Esto es lo que mostrará el contenido de tus archivos .md -->
+  </div>
